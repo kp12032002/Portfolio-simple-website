@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #EFECE3;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-one__contact {
+    background-color: #4A70A9;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.section-one__name {
+    font-size: 40px;
+}
+
+.section-one__role {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-two, .section-three, .section-four, .section-five {
+    margin-top: 20px;
+}
+
+.section-two__desc, .section-three__desc, .section-four__desc, .section-five__desc {
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: skyblue;
+}
+
+.section-three li, .section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #4A70A9;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    border: 2px solid #4A70A9;
+}
+
+.section-four {
+    background-color: #8FABD4;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    border: 2px solid #8FABD4;
+}
+
+.section-three:hover {
+    background-color: #EFECE3;
+    color: black;
+    border: 2px solid #4A70A9;
+}
+
+.section-four:hover {
+    background-color: #EFECE3;
+    color: black;
+    border: 2px solid #8FABD4;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__input, .contact-form__textarea, .contact-form__submit {
+    margin-top: 10px;
+}
+
+.contact-form__input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-form__textarea {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.contact-form__submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #4A70A9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+
+}
